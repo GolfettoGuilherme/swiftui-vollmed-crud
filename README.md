@@ -6,6 +6,7 @@ Este é um projeto de exemplo que demonstra um aplicativo CRUD (Create, Read, Up
 
 O aplicativo possui as seguintes funcionalidades:
 
+- **Login de usuário**: Permite cadastrar novoso usuários
 - **Listagem de Itens**: Exibe uma lista dos itens disponíveis.
 - **Adicionar Item**: Permite aos usuários adicionar novos itens à lista.
 - **Editar Item**: Permite aos usuários editar os itens existentes na lista.
@@ -26,6 +27,10 @@ Para usar este projeto, siga estas etapas:
 ## Contribuindo
 
 Contribuições são bem-vindas! Se você quiser melhorar este projeto, sinta-se à vontade para enviar um pull request.
+
+## Sugestão de melhoria
+
+Remover o uso da classe Webservice, e deixar tudo junto
 
 ## Autor
 
