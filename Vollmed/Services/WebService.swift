@@ -8,7 +8,7 @@
 import UIKit
 
 //let patientID = "b25aa67b-203e-4a79-b0e0-3f5c560cd317"
-
+//TODO: sugestão de melhoria: matar essa classe e todos os métodos serem abstraçoes igual foi logout
 struct WebService {
     
     private let baseURL = "http://localhost:3000"
