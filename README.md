@@ -28,9 +28,9 @@ Para usar este projeto, siga estas etapas:
 
 Contribuições são bem-vindas! Se você quiser melhorar este projeto, sinta-se à vontade para enviar um pull request.
 
-## Sugestão de melhoria
+## Sugestões de melhoria
 
-Remover o uso da classe Webservice, e deixar tudo junto
+Estão no projeto atrelado a esse repositorio.
 
 ## Autor
 
