@@ -25,6 +25,10 @@
 		0EF2BBFB2BCF5E5000BDA979 /* HomeNerworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF2BBFA2BCF5E5000BDA979 /* HomeNerworkingService.swift */; };
 		0EF2BBFD2BCF615C00BDA979 /* AuthenticationEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF2BBFC2BCF615C00BDA979 /* AuthenticationEndpoint.swift */; };
 		0EF2BBFF2BCF6EE100BDA979 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF2BBFE2BCF6EE100BDA979 /* AuthenticationService.swift */; };
+		0EF2BC022BCF79C900BDA979 /* SnackBarErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF2BC012BCF79C900BDA979 /* SnackBarErrorView.swift */; };
+		0EF2BC042BD0560500BDA979 /* UIApplication+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF2BC032BD0560500BDA979 /* UIApplication+.swift */; };
+		0EF2BC072BD0581300BDA979 /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF2BC062BD0581300BDA979 /* SkeletonView.swift */; };
+		0EF2BC092BD05ADD00BDA979 /* RedactedAnimationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF2BC082BD05ADD00BDA979 /* RedactedAnimationModifier.swift */; };
 		484BEEFD2AB0F5750033C07A /* Specialist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484BEEFC2AB0F5750033C07A /* Specialist.swift */; };
 		484BEEFF2AB0F59D0033C07A /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484BEEFE2AB0F59D0033C07A /* WebService.swift */; };
 		484BEF012AB0F6090033C07A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484BEF002AB0F6090033C07A /* ButtonView.swift */; };
@@ -62,6 +66,10 @@
 		0EF2BBFA2BCF5E5000BDA979 /* HomeNerworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNerworkingService.swift; sourceTree = "<group>"; };
 		0EF2BBFC2BCF615C00BDA979 /* AuthenticationEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationEndpoint.swift; sourceTree = "<group>"; };
 		0EF2BBFE2BCF6EE100BDA979 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		0EF2BC012BCF79C900BDA979 /* SnackBarErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarErrorView.swift; sourceTree = "<group>"; };
+		0EF2BC032BD0560500BDA979 /* UIApplication+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+.swift"; sourceTree = "<group>"; };
+		0EF2BC062BD0581300BDA979 /* SkeletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonView.swift; sourceTree = "<group>"; };
+		0EF2BC082BD05ADD00BDA979 /* RedactedAnimationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactedAnimationModifier.swift; sourceTree = "<group>"; };
 		484BEEFC2AB0F5750033C07A /* Specialist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specialist.swift; sourceTree = "<group>"; };
 		484BEEFE2AB0F59D0033C07A /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		484BEF002AB0F6090033C07A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
@@ -147,9 +155,27 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		0EF2BC002BCF79B500BDA979 /* SnackBarView */ = {
+			isa = PBXGroup;
+			children = (
+				0EF2BC012BCF79C900BDA979 /* SnackBarErrorView.swift */,
+			);
+			path = SnackBarView;
+			sourceTree = "<group>";
+		};
+		0EF2BC052BD0580600BDA979 /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				0EF2BC062BD0581300BDA979 /* SkeletonView.swift */,
+			);
+			path = Skeleton;
+			sourceTree = "<group>";
+		};
 		484BEEF82AB0F55F0033C07A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0EF2BC052BD0580600BDA979 /* Skeleton */,
+				0EF2BC002BCF79B500BDA979 /* SnackBarView */,
 				484BEEF92AB0F5630033C07A /* Components */,
 				484BEF042AB0F7970033C07A /* HomeView.swift */,
 				488A6A0F2AB8F9AA003A2CAD /* ScheduleAppointmentView.swift */,
@@ -241,6 +267,8 @@
 			children = (
 				488A6A122AB8FB3D003A2CAD /* Date+.swift */,
 				488A6A142AB8FB86003A2CAD /* String+.swift */,
+				0EF2BC032BD0560500BDA979 /* UIApplication+.swift */,
+				0EF2BC082BD05ADD00BDA979 /* RedactedAnimationModifier.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -316,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EF2BBF32BCE13C800BDA979 /* RequestMethod.swift in Sources */,
+				0EF2BC072BD0581300BDA979 /* SkeletonView.swift in Sources */,
 				0EF2BBE32BCDDA3B00BDA979 /* UserDefaultsHelper.swift in Sources */,
 				488A6A1B2AB90ED6003A2CAD /* Appointment.swift in Sources */,
 				488A6A132AB8FB3D003A2CAD /* Date+.swift in Sources */,
@@ -335,6 +364,7 @@
 				484BEF012AB0F6090033C07A /* ButtonView.swift in Sources */,
 				0EDF836C2BCB172C001B54FB /* Login.swift in Sources */,
 				484BEF032AB0F7080033C07A /* SpecialistCardView.swift in Sources */,
+				0EF2BC092BD05ADD00BDA979 /* RedactedAnimationModifier.swift in Sources */,
 				484BEEFF2AB0F59D0033C07A /* WebService.swift in Sources */,
 				0EF2BBF72BCE150E00BDA979 /* HttpClient.swift in Sources */,
 				48539DED2AB0F47C005BD7C9 /* VollmedApp.swift in Sources */,
@@ -343,9 +373,11 @@
 				0EF2BBEB2BCE0C6800BDA979 /* HomeViewModel.swift in Sources */,
 				488A6A192AB90DD4003A2CAD /* MyAppointmentsView.swift in Sources */,
 				0EF2BBF92BCF5CBA00BDA979 /* HomeEndpoint.swift in Sources */,
+				0EF2BC042BD0560500BDA979 /* UIApplication+.swift in Sources */,
 				0EDF83622BCB0065001B54FB /* SingInView.swift in Sources */,
 				0EF2BBE82BCDEC2700BDA979 /* AuthenticationManager.swift in Sources */,
 				488A6A102AB8F9AA003A2CAD /* ScheduleAppointmentView.swift in Sources */,
+				0EF2BC022BCF79C900BDA979 /* SnackBarErrorView.swift in Sources */,
 				0EF2BBF12BCE124D00BDA979 /* Endpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
