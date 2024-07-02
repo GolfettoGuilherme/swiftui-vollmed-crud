@@ -2,7 +2,7 @@
 //  Appointment.swift
 //  Vollmed
 //
-//  Created by Giovanna Moeller on 18/09/23.
+//  Created by Guilherme Golfetto on 18/09/23.
 //
 
 import Foundation
